@@ -1,0 +1,165 @@
+body{
+    background-color:  #F3EAE3;
+    font-family: "montserrat";
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.product-img{
+    
+    max-width: 100%;
+    border-radius: 8px 0px 0px 8px;
+    display: inherit;
+}
+
+#product{
+    
+    margin: 100px auto;
+    border-radius: 8px;
+    background-color: white;
+    overflow: hidden;
+    max-width: 700px;
+
+}
+
+/* Product Info */
+.product-title{
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+h1{
+    font-family: Fraunces;
+    padding: 0px 0px;
+}
+.product-descrip{
+    padding: 20px 0px;
+}
+h2{
+    color: hsl(158, 36%, 37%);
+    padding: 20px 0px;
+}
+del{
+    font-size: small;
+    color: rgb(66, 66, 66);
+}
+.btn{
+    width: 90%;
+}
+.button-img{
+    padding: 0px 7px;
+ 
+}
+
+@media  (max-width:420px){
+
+    .product-img{
+    
+        align-items: center;
+        max-height: 250px;
+        object-fit: cover;
+        width: 100%;
+        
+       
+    }
+    #product{
+
+      
+        padding: 20px;
+        margin: 12px;
+         
+    }
+    .btn{
+        width: 100%;
+    }
+    .product-title{
+       
+        font-size: 16px;
+
+    }
+    h1{
+        
+        padding: 0px 0px;
+        font-size: 40px;
+    }
+    .product-descrip{
+        padding: 10px 0px;
+        font-size: 16px;
+    }
+    h2{
+       font-size: 35px;
+    }
+    del{
+        font-size: 18px;
+      
+    }
+ 
+}
+@media  (max-width:750px){
+
+    .product-img{
+    
+        align-items: center;
+        max-height: 350px;
+        object-fit: cover;
+        width: 100%;
+        
+       
+    }
+    #product{
+
+   
+        padding: 20px;
+        margin: 12px;
+        
+          
+    }
+    .btn{
+        width: 100%;
+    }
+    .product-title{
+       
+        font-size: 16px;
+
+    }
+    h1{
+        
+        padding: 0px 0px;
+        font-size: 40px;
+    }
+    .product-descrip{
+        padding: 10px 0px;
+        font-size: 16px;
+    }
+    h2{
+       font-size: 35px;
+    }
+    del{
+        font-size: 18px;
+      
+    }
+ 
+}
+/* Footer */
+#footer{
+    
+    color: hsl(158, 36%, 37%);
+    text-align: center;
+    padding: 1px 5px 2px;
+   
+
+   
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: goldenrod;
+}
+.footer-para{
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
